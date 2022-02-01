@@ -1,7 +1,9 @@
+# Package libraries
 numpy
 geocoder
 
 
+# CI/CD libraries
 pip>=9
 setuptools>=26
 wheel>=0.29
