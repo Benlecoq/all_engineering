@@ -1,2 +1,3 @@
 numpy
 geocoder
+pytest
