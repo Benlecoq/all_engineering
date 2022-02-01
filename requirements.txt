@@ -4,6 +4,6 @@ geocoder
 
 pip>=9
 setuptools>=26
-#wheel>=0.29
+wheel>=0.29
 pytest
 #coverage
