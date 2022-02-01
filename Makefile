@@ -1,5 +1,5 @@
 install:
-	pip install -e .
+	@pip install -e .
 
 test:
 	@coverage run -m pytest tests/*.py
