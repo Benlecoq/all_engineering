@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import geocoder
+
+from taxi_package.distances import manhattan
+
+# My location using geocoder
+my_loc = geocoder.ip('me')
+
+my_lat = my_loc.latlng[0]
+
+my_lon = my_loc.latlng[1]
+
+# Manhattan's geolocation
+manhattan_lon = 40.7831
+
+manhattan_lat = 73.9712
+
+# Calculate distance between me and manhattan using our manhattan function :D
+me_to_manhattan = manhattan(my_lon, my_lat, manhattan_lon, manhattan_lat)
+
+print(f"The Manhattan distance between me and Manhattan is {me_to_manhattan}")

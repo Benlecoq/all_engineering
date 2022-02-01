@@ -1,5 +1,12 @@
+.DS_Store
+.coverage
 requirements.txt
 setup.py
+data/taxi_1k.csv
+notebooks/.DS_Store
+notebooks/modelling.ipynb
+notebooks/.ipynb_checkpoints/modelling-checkpoint.ipynb
+scripts/me-2-manhattan
 taxi_package/__init__.py
 taxi_package/distances.py
 taxi_package.egg-info/PKG-INFO
@@ -7,3 +14,9 @@ taxi_package.egg-info/SOURCES.txt
 taxi_package.egg-info/dependency_links.txt
 taxi_package.egg-info/requires.txt
 taxi_package.egg-info/top_level.txt
+taxi_package/__pycache__/__init__.cpython-38.pyc
+taxi_package/__pycache__/distances.cpython-38.pyc
+tests/test_euclidean.py
+tests/test_manhattan.py
+tests/__pycache__/test_euclidean.cpython-38-pytest-6.2.5.pyc
+tests/__pycache__/test_manhattan.cpython-38-pytest-6.2.5.pyc
